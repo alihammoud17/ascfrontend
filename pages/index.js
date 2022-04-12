@@ -1,12 +1,5 @@
-import Layout from '../components/layout';
-import {
-  Button,
-  Grid,
-  GridItem,
-  Select,
-  Text,
-  Textarea,
-} from '@chakra-ui/react';
+import Layout from '../components/Layout';
+import { Button, Grid, GridItem, Select, Textarea } from '@chakra-ui/react';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
