@@ -4,7 +4,7 @@ import NextLink from 'next/link';
 export default function Navbar() {
   return (
     <>
-      <Flex justify="space-around" align="center">
+      <Flex justify={['center', 'center', 'space-around']} align="center">
         <Flex justify="space-around">
           <NextLink href="https://www.gotocme.com/" passHref>
             <Link>
@@ -18,7 +18,7 @@ export default function Navbar() {
           </NextLink>
         </Flex>
         <Flex justify="flex-start">
-          <Heading>Arabic Spelling Corrector</Heading>
+          {/* <Heading>Arabic Spelling Corrector</Heading> */}
         </Flex>
       </Flex>
       <Flex w="100%">
