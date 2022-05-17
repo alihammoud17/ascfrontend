@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#text:focus {
+  border-color: inherit;
+  box-shadow: none;
+}
+
+#submit:focus, #submit:active {
+  background-color: #812990;
+}
+
+/* .result-text {
+  direction: rtl;
+} */
+
+.pos-highlight {
+  background-color: transparent;
+  color: rgb(71, 226, 54);
+}
+
+.highlighted, .neg-highlight {
+  color: rgb(220, 29, 29);;
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
